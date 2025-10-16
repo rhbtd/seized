@@ -1,3 +1,92 @@
-<html><body style="margin:0;">
-<img src="crypto-bil-final.png" style="width:100vw;height:100vh;object-fit:cover;">
-</body></html>
+
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Site saisi par la GRC / Website seized by the RCMP</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Image centrale */
+    .splash-logo {
+      max-width: 80vw;
+      max-height: 70vh;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Conteneur avertissement */
+    .warning {
+      position: absolute;
+	  bottom: 20px;
+      width: 60%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9rem;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 6px;
+      padding: 1rem;
+    }
+
+    .warning div {
+      flex: 1;
+      text-align: left;
+      padding: 0 1rem;
+    }
+
+    .warning div + div {
+      border-left: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .warning strong {
+      display: block;
+      margin-bottom: 0.4rem;
+      color: #fff;
+    }
+
+    /* Mobile : empiler les colonnes, sans ligne verticale */
+    @media (max-width: 600px) {
+      .warning {
+        flex-direction: column;
+        text-align: center;
+      }
+      .warning div {
+        padding: 0.5rem 0;
+      }
+      .warning div + div {
+        border-left: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+      }
+    }
+  </style>
+  </head>
+<body>
+  <!-- Image centrale -->
+<img src="/image/crypto-bil-final.jpg" alt="Ce site et ses cryptoactifs ont été saisis par la GRC Police fédérale Région de l'Est / This site and its cryptoassets have been seized by the RCMP Federal Policing Eastern Region" class="splash-logo">
+
+  <!-- Texte bilingue en deux colonnes -->
+  <div class="warning">
+    <div>
+	Si vous avez de l'information, communiquez avec l'Équipe d'enquête sur le blanchiment d'argent à l'adresse 4225, Dorchester, Westmount, QC, Canada, H3Z&#160;1V5, en précisant le numéro de dossier 2024-801645.</div>
+    <div>
+     If you have any information, please contact the Money Laundering Investigation Team at 4225 Dorchester, Westmount, QC, Canada, H3Z&#160;1V5, specifying file number 2024-801645.</div>
+  </div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"98f3c11ebbcb36c1","version":"2025.9.1","r":1,"token":"59663b0d0b464980af3f1c41463bc062","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
